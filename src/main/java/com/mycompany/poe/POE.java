@@ -73,7 +73,7 @@ public boolean checkPasswordcomplexity(){
 return password.length()>=8 && password.contains("[A-Z]") &&
         password.contains("[a-z]")&&
         password.contains("[0-9]") && 
-        password.contains("[!@#$%^&(),.?\":{}|<>]).{8,}$");
+        password.contains("[!@#$%^&*(),.?\":{}|<>]).{8,}$");
       
 }
 
